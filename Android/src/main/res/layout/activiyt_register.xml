@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_register"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="注册页面"
+        android:textColor="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textViewReg" />
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:text="邮       箱："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewEmail"
+        android:textSize="@dimen/tvsize"
+        android:layout_weight="1" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="请输入邮箱"
+        android:ems="10"
+        android:id="@+id/editTextEmail"
+        android:layout_weight="1" />
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="密       码："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tvsize"
+            android:id="@+id/textViewPassWd"
+            android:layout_weight="1" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="请输入密码"
+            android:ems="10"
+            android:id="@+id/editTextPassWd"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="确认密码："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tvsize"
+            android:id="@+id/textViewPassWd2"
+            android:layout_weight="1" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="请再次输入密码"
+            android:ems="10"
+            android:id="@+id/editTextPassWd2"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Button
+        android:text="获取邮箱验证码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonEmail" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="请输入验证码"
+        android:ems="10"
+        android:id="@+id/editTextCheckEmail" />
+
+    <Button
+        android:text="点击注册"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:clickable="true"
+        android:onClick="RegisterClick"
+        android:id="@+id/buttonReg" />
+
+    <Button
+        android:text="返回登录"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="BackLoginClick"
+        android:id="@+id/buttonBackLogin"
+        />
+
+
+</LinearLayout>
