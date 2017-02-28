@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FE5E32BF86F71B68C6C2484A5468AB6039991C51+++1756A3C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "FE5E32BF86F71B68C6C2484A5468AB6039991C51+++1756A3C" : {
+
+    },
+    "57310a05-64fd-478c-944b-a8787ad4cbad++5785+++5ED8F97" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FE5E32BF86F71B68C6C2484A5468AB6039991C51+++1756A3C" : 0,
+    "57310a05-64fd-478c-944b-a8787ad4cbad++5785+++5ED8F97" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5EE4D56C-56B4-4F44-8102-E5E646CB76AC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FE5E32BF86F71B68C6C2484A5468AB6039991C51+++1756A3C" : "",
+    "57310a05-64fd-478c-944b-a8787ad4cbad++5785+++5ED8F97" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "demo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "demo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.6.234\/gelanios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "57310a05-64fd-478c-944b-a8787ad4cbad++5785+++5ED8F97"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.6.234\/gelanios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FE5E32BF86F71B68C6C2484A5468AB6039991C51+++1756A3C"
+    }
+  ]
+}
